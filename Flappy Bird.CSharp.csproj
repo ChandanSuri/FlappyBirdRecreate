@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\Camera Script\CameraScript.cs" />
     <Compile Include="Assets\Scripts\Collectors Scripts\BGCollector.cs" />
     <Compile Include="Assets\Scripts\Collectors Scripts\PipeCollector.cs" />
+    <Compile Include="Assets\Scripts\Game Controllers\GameController.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
