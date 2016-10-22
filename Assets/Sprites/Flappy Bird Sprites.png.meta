@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: f2cc089537d28db478f900292376c2fa
-timeCreated: 1477086342
+timeCreated: 1477104285
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -29,9 +29,9 @@ TextureImporter:
     21300044: Gold Medal
     21300046: Silver Medal
     21300048: Pause Game Button
-    21300050: Play Game Button
+    21300050: Resume Game Button
     21300052: Ground
-    21300054: Share Button
+    21300054: Go To Menu
     21300056: Play Button
     21300058: Leaderboard Button
     21300060: Connect Twitter Button
@@ -414,7 +414,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Play Game Button
+      name: Resume Game Button
       rect:
         serializedVersion: 2
         x: 660
@@ -440,7 +440,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Share Button
+      name: Go To Menu
       rect:
         serializedVersion: 2
         x: 19
