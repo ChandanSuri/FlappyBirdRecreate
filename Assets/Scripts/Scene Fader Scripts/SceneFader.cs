@@ -40,7 +40,8 @@ public class SceneFader : MonoBehaviour {
     {
         fadeCanvas.SetActive(true);
         fadeAnim.Play("FadeIn");
-        yield return new WaitForSeconds(0.7f);
+        //yield return new WaitForSeconds(0.7f);
+        yield return StartCoroutine(MyCoroutine.WaitForRealSeconds(0.7f));
         SceneManager.LoadScene(levelName);
         FadeOut();
     }
@@ -48,7 +49,8 @@ public class SceneFader : MonoBehaviour {
     IEnumerator FadeOutAnimation()
     {
         fadeAnim.Play("FadeOut");
-        yield return new WaitForSeconds(1f);
+        //yield return new WaitForSeconds(1f);
+        yield return StartCoroutine(MyCoroutine.WaitForRealSeconds(1f));
         fadeCanvas.SetActive(false);
     }
 }

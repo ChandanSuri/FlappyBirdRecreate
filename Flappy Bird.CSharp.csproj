@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\Game Controllers\GameController.cs" />
     <Compile Include="Assets\Scripts\Game Controllers\GameplayController.cs" />
     <Compile Include="Assets\Scripts\Game Controllers\MenuController.cs" />
+    <Compile Include="Assets\Scripts\My Coroutine\MyCoroutine.cs" />
     <Compile Include="Assets\Scripts\Scene Fader Scripts\SceneFader.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
