@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: f2cc089537d28db478f900292376c2fa
-timeCreated: 1477104285
+timeCreated: 1477118519
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -27,7 +27,7 @@ TextureImporter:
     21300040: Connect Google Play Button
     21300042: Bronze Medal
     21300044: Gold Medal
-    21300046: Silver Medal
+    21300046: White Medal
     21300048: Pause Game Button
     21300050: Resume Game Button
     21300052: Ground
@@ -388,7 +388,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Silver Medal
+      name: White Medal
       rect:
         serializedVersion: 2
         x: 425
